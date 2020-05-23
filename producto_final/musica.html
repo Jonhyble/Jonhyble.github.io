@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Musica</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/musica.css">
+</head>
+<body>
+    <div class="contenedor-reproductor">
+        <div class="lista-canciones">
+            <div class="cancion" onclick="reproducir(0);">
+                <img src="imagenes/Awaken.jpg" class="caratula">
+                <div class="info-cancion">
+                    <p class="titulo-cancion">Awaken</p>
+                    <p class="artista-cancion">Dethklok</p>
+                </div>
+            </div>
+
+            <div class="cancion" onclick="reproducir(1);">
+                <img src="imagenes/Blood.jpg" class="caratula">
+                <div class="info-cancion">
+                    <p class="titulo-cancion">Blood // Water</p>
+                    <p class="artista-cancion">Grandson</p>
+                </div>
+            </div>
+
+            <div class="cancion" onclick="reproducir(2);">
+                <img src="imagenes/Cradles.jpg" class="caratula">
+                <div class="info-cancion">
+                    <p class="titulo-cancion">Cradles</p>
+                    <p class="artista-cancion">Sub Urban</p>
+                </div>
+            </div>
+
+            <div class="cancion" onclick="reproducir(3);">
+                <img src="imagenes/Gangsta.jpg" class="caratula">
+                <div class="info-cancion">
+                    <p class="titulo-cancion">Gangsta's Paradise</p>
+                    <p class="artista-cancion">Coolio</p>
+                </div>
+            </div>
+
+            <div class="cancion" onclick="reproducir(4);">
+                <img src="imagenes/Pentakill.jpg" class="caratula">
+                <div class="info-cancion">
+                    <p class="titulo-cancion">Mortal Reminder</p>
+                    <p class="artista-cancion">Pentakill</p>
+                </div>
+            </div>
+
+            <div class="cancion" onclick="reproducir(5);">
+                <img src="imagenes/Play.jpg" class="caratula">
+                <div class="info-cancion">
+                    <p class="titulo-cancion">Play with fire</p>
+                    <p class="artista-cancion">Sam Tinnesz</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="control-reproductor">
+            <img src="" alt="" id="caratula-reproductor">
+            <div>
+                <p id="titulo-reproductor"></p>
+                <p id="artista-reproductor"></p>
+            </div>
+            <img src="imagenes/anterior.png" class="controlador" id="anterior">
+            <img src="imagenes/play.png" class="controlador" id="reproducir">
+            <img src="imagenes/siguiente.png" class="controlador" id="siguiente">
+        </div>
+    </div>
+    <script src="js/reproductor.js"></script>
+</body>
+</html>
